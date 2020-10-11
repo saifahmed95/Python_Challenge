@@ -1,18 +1,17 @@
 import os
 import csv
-#Initialize Variable
+
+
 months_count=0
 total_profit_loss=0
 budget_csv = os.path.join("c:/", "Users", "mango", "Desktop", "Python_Challenge","PyBank","budget_data.csv")
 
-# Open the CSV
+
 with open(budget_csv, 'r') as csvfile:
     csvreader = csv.reader(csvfile, delimiter=",")
-    
-    # Skip headers
     next(csvreader, None)
 
-    # Read data
+
     row = next(csvreader,None)
     max_month = row[0]
     min_month = row[0]

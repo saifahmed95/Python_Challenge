@@ -3,11 +3,12 @@ import csv
 import operator
 
 
-#Initialize Variables
+
 vote_count=0
-dashes="-------------------------"
 candidates = []
 vote_count_candidate = {}
+dashes="-------------------------"
+
 
 election_csv = os.path.join("c:/", "Users", "mango", "Desktop", "Python_Challenge","PyPoll","election_data.csv")
 
