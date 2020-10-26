@@ -5,7 +5,7 @@ import csv
 
 months_count=0
 total_profit_loss=0
-budget_csv = os.path.join("c:/", "Users", "mango", "Desktop", "Python_Challenge","PyBank","budget_data.csv")
+budget_csv = os.path.join("..","PyBank","budget_data.csv")
 
 
 with open(budget_csv, 'r') as csvfile:
